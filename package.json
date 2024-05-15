@@ -1,0 +1,15 @@
+{
+	"name": "class-dom-2",
+	"version": "1.0.0",
+	"description": "bla bla bla",
+	"main": "index.js",
+	"scripts": {
+		"dev": "live-server --port=3000 --open=./src/pages/index.html"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"live-server": "^1.2.2"
+	}
+}

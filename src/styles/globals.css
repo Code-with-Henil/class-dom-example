@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+	width: 100%;
+	padding: 16px 32px;
+	background-color: black;
+	color: white;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	margin-inline: 16px;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+	opacity: 65%;
+}
+
+button {
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 4px 8px;
+	margin: 16px;
+}
+
+button:hover {
+	opacity: 75%;
+	cursor: pointer;
+}
+
+.smallButton {
+}
+.meidumButton {
+}
+.largeButton {
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 8px 16px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
